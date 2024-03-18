@@ -1,0 +1,63 @@
+body{
+    background-color: #efefef;
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 20px;
+    line-height: 1.45;
+  }
+  
+  form{
+    width: 50%;
+    text-align:left;
+    padding:21px;
+    border:1.5px solid green;
+    border-radius: 10px;
+    margin: 28px;
+    padding-left: 30px;
+  }
+
+  #description{
+    line-height: 1.4;
+    font-size: 17px;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 650px;
+  }
+  
+  input{
+    padding:4px;
+    border:none;
+    border-radius:4px;
+    width: 50%;
+    height: 28px;
+    font-size: 17px;
+  }
+  
+  .input-element{
+    display:flex;
+    flex-direction:column;
+    margin:7px;
+  }
+  
+  select{
+    display:flex;
+    flex-direction:column;
+    margin:7px;
+  }
+  
+  input[type="checkbox"]{
+    width:17px;
+    height:17px;
+  }
+
+  #dropdown{
+    width: auto;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  #dropdown option{
+    font-size: 17px;
+  }
